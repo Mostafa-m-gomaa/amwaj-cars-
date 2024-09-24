@@ -34,7 +34,6 @@ import {
 import { toast } from "../../../components/ui/use-toast";
 import { useState } from "react";
 import { axiosInstance } from "../../../services/axios.config";
-import { FaExchangeAlt } from "react-icons/fa";
 import { deleteUser } from "../../../services/userApis";
 
 interface IUsersTableProps {
